@@ -79,23 +79,7 @@ No incluye el proceso de actualización de versiones ya publicadas, el cual corr
 
 ---
 
-## 7. Matriz RACI
-
-| Actividad | Docente/Solicitante | Responsable de Imágenes | Seguridad | Administrador Lab | Comité |
-|---|---:|---:|---:|---:|---:|
-| Registrar solicitud | R | I | I | I | I |
-| Buscar imagen existente en Harbor | I | R/A | I | I | I |
-| Analizar oficial vs. crear | C | A/R | C | I | I |
-| Escanear vulnerabilidades | I | C | R | I | I |
-| Firmar imagen | I | R | C | I | I |
-| Aprobar publicación | I | A | C | C | I |
-| Publicar en Harbor | I | R | I | I | I |
-| Rechazar solicitud | I | R | C | I | I |
-| Resolver excepción | I | C | C | C | A/R |
-
----
-
-## 8. Descripción detallada del proceso
+## 7. Descripción detallada del proceso
 
 1. El docente o solicitante registra la solicitud indicando curso/proyecto, necesidad y justificación.
 2. El Responsable de Imágenes realiza una **búsqueda automática en Harbor**.
@@ -111,7 +95,7 @@ No incluye el proceso de actualización de versiones ya publicadas, el cual corr
 
 ---
 
-## 9. Flujo del proceso
+## 8. Flujo del proceso
 
 ```mermaid
 flowchart TD
@@ -135,7 +119,7 @@ flowchart TD
 
 ---
 
-## 10. Estados de una solicitud
+## 9. Estados de una solicitud
 
 | Estado | Descripción |
 |---|---|
@@ -152,7 +136,7 @@ flowchart TD
 
 ---
 
-## 11. Metadatos de trazabilidad de la imagen
+## 10. Metadatos de trazabilidad de la imagen
 
 Toda imagen publicada deberá registrar como mínimo:
 

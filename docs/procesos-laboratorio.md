@@ -28,10 +28,14 @@ Se incluyen descripciones detalladas, diagramas BPMN textuales, matriz RACI, ind
 - **Chapter Leads Técnicos**: Profesores por especialidad (DevOps, Seguridad, etc.).
 
 ```diff
-**Comentario por Ticona Saure Jose Maria:** 
-* **A favor:** La separación de roles entre docentes y personal técnico está bien definida conceptualmente.
-* **Observación y mejora:** Falta especificar el nivel de permisos que tendrá cada rol dentro de la plataforma (por ejemplo: permisos de lectura, ejecución, despliegue o administración de contenedores). Además, no se aclara qué sucede cuando un estudiante requiere paquetes adicionales no incluidos en la imagen base enviada por el docente.
-</span>
+- Comentario por Ticona Saure Jose Maria: 
+- A favor: La separación de roles entre docentes y personal técnico está bien
+- definida conceptualmente.
+- Observación y mejora:Falta especificar el nivel de permisos que tendrá cada
+- rol dentro de la plataforma (por ejemplo: permisos de lectura, ejecución,
+- despliegue o administración de contenedores). Además, no se aclara qué
+- sucede cuando un estudiante requiere paquetes adicionales no incluidos en
+- la imagen base enviada por el docente.
 ```
 
 ### Propuesta de Organización

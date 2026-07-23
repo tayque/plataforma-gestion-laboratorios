@@ -160,3 +160,31 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 2. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
 3. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?
 4. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?
+
+---
+
+## 10. Respuestas de los integrantes a las preguntas de discusión
+
+### Respuestas — JerryCode777
+
+**1. ¿Qué otros procesos del laboratorio caen en el dominio "complicado" frente a los que caen en el dominio "complejo"?**
+
+En el dominio **complicado** caen los procesos que tienen una solución correcta conocida y solo requieren conocimiento experto para ejecutarse: la reserva de laboratorios y horarios, el alta y baja de usuarios con sus permisos, el inventario y mantenimiento preventivo del hardware, el escaneo de vulnerabilidades de una imagen con Trivy y la renovación de licencias de software. Todos ellos pueden documentarse en un procedimiento y automatizarse.
+
+En el dominio **complejo** caen los procesos cuyo resultado solo se entiende en retrospectiva y requieren experimentar: definir la política de priorización cuando varios cursos compiten por los mismos recursos, decidir qué imágenes merecen entrar al catálogo oficial (las necesidades reales emergen con el uso), diseñar el modelo de gobernanza entre docentes, estudiantes y administradores de TI, y lograr la adopción de la plataforma por parte de los usuarios. En estos casos conviene lanzar pilotos, observar el uso real y ajustar, en lugar de fijar un procedimiento cerrado desde el inicio.
+
+**2. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?**
+
+Convendría dividir cuando el Tribe deja de cumplir su propósito: alinear una visión común. Las señales concretas serían tres. Primero, cuando aparecen dos áreas de producto con usuarios y objetivos claramente distintos (por ejemplo, la plataforma académica y la plataforma empresarial), de modo que las reuniones de coordinación tratan temas que ya no interesan a la mitad de los squads. Segundo, cuando el número de personas supera lo que un Tribe Lead puede coordinar con relaciones de confianza (la literatura sugiere alrededor de 40-100 personas, y 10 squads de 5-9 miembros ya bordean ese límite). Tercero, cuando las dependencias cruzadas entre squads de distinta área se vuelven la excepción y no la regla. En el caso del proyecto, el corte natural sería un tribe "Plataforma Académica" y otro "Plataforma Empresarial", manteniendo los Chapters transversales a ambos para no fragmentar los estándares técnicos.
+
+**3. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?**
+
+El riesgo principal es que la documentación de procesos siempre pierde frente a la presión de entregar funcionalidad, porque es trabajo importante pero no urgente. Las consecuencias en cadena serían: procesos que solo existen en la cabeza de algunos miembros (conocimiento tácito), lo cual es grave en un contexto universitario con alta rotación de estudiantes por semestre; una matriz RACI desactualizada que genera confusión de responsabilidades ante incidentes; pérdida de trazabilidad de las decisiones (¿por qué se aprobó esta imagen?, ¿quién autorizó este cambio?); y a mediano plazo, la desaparición práctica del rol, con lo que se repetiría el silo que el diseño quiso evitar, pero ahora sin nadie a cargo. La mitigación es tratar la documentación como trabajo del sprint: reservarle un porcentaje fijo de la dedicación semanal e incluirla en la definición de terminado de cada entrega.
+
+**4. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?**
+
+Para la **autonomía** mediría: (a) porcentaje de decisiones técnicas que el squad resuelve sin escalar al Chapter o al Tribe (meta: mayoría de decisiones locales); (b) lead time desde que el squad decide un cambio hasta que lo entrega, pues los tiempos largos suelen delatar aprobaciones en cascada; y (c) número de bloqueos por dependencia de otro squad por sprint.
+
+Para la **alineación** mediría: (d) porcentaje de entregas que cumplen los estándares definidos por los Chapters (revisiones de código, seguridad, documentación); (e) retrabajo por inconsistencias entre squads, por ejemplo dos squads resolviendo el mismo problema de forma incompatible (meta: tendencia a cero); y (f) el resultado de una encuesta corta trimestral donde cada miembro evalúa "entiendo cómo mi trabajo aporta al objetivo del Tribe".
+
+El equilibrio se logra cuando ambos grupos de indicadores son buenos a la vez: si (a)-(c) son buenos pero (d)-(f) malos, hay caos (autonomía sin alineación); si ocurre lo contrario, hay burocracia (alineación sin autonomía).

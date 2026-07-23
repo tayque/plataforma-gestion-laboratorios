@@ -163,6 +163,15 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 - Proyecto 1: 3er-4to semestre, promedio mínimo 14, portafolio GitHub.
 - Proyecto 2: Haber participado en Proyecto 1 (preferible), conocimientos avanzados en Kubernetes, GitOps y Seguridad.
 
+```diff
+- Comentario por jose Maria Ticona Saure
+- A favor:Es positivo definir habilidades previas para el uso de la plataforma, 
+- ya que evita errores operativos durante el desarrollo de las prácticas.
+- A mejorar: Se asume un conocimiento previo homogéneo en herramientas como Docker,
+- Linux o Git por parte de docentes y estudiantes. Recomiendo incluir una matriz de
+- capacitación previa o enlaces a guías de inducción obligatorias para nivelar
+- competencias al inicio del semestre.
+```
 ---
 
 ## Arquitectura Técnica Propuesta

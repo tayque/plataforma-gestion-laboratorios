@@ -31,14 +31,14 @@ software y licencias.
 
 ## Contenido
 
-1. [Introducción, problemática y objetivos](01 introduccion problematica objetivos.md)
-2. [Estructura organizacional](02 estructura organizacional.md)
-3. [Roles de autoridades y encargados](03 roles autoridadesencargados.md)
-4. [Roles de docentes, estudiantes y personal técnico](04 roles docentes estudiantes soporte.md)
-5. [Proceso de solicitud de imágenes](05 proceso solicitud imagenes.md)
-6. [Proceso de reserva de laboratorios](06 proceso reserva laboratorios.md)
-7. [Gobernanza de imágenes Docker](07 gobernanza imagenes docker.md)
-8. [Software, licencias y trazabilidad](08 software licencias trazabilidad.md)
+1. [Introducción, problemática y objetivos](01-introduccion-problematica-objetivos.md)
+2. [Estructura organizacional](02-estructura-organizacional.md)
+3. [Roles de autoridades y encargados](03-roles-autoridades-encargados.md)
+4. [Roles de docentes, estudiantes y personal técnico](04-roles-docentes-estudiantes-soporte.md)
+5. [Proceso de solicitud de imágenes](05-proceso-solicitud-imagenes.md)
+6. [Proceso de reserva de laboratorios](06-proceso-reserva-laboratorios.md)
+7. [Gobernanza de imágenes Docker](07-gobernanza-imagenes-docker.md)
+8. [Software, licencias y trazabilidad](08-software-licencias-trazabilidad.md)
 
 ## Forma de trabajo
 

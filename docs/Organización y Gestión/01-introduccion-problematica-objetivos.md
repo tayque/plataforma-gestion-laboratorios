@@ -1,356 +1,194 @@
-\# 1. Introducción, Problemática y Objetivos
+# 1. Introducción, Problemática y Objetivos
 
-&#x20;
+**Sección 1 del Documento de Organización y Gestión de Laboratorios**
 
-\*\*Sección 1 del Documento de Organización y Gestión de Laboratorios\*\*  
+**Responsable:** Cornejo Hurtado, Dario Rafael
 
-\*\*Responsable:\*\* Cornejo Hurtado, Dario Rafael  
+**Fecha:** Julio 2026
 
-\*\*Fecha:\*\* Julio 2026
+---
 
-&#x20;
+## 1.1 Introducción
 
-\---
+### Alcance del Proyecto
 
-&#x20;
-
-\## 1.1 Introducción
-
-&#x20;
-
-\### Alcance del Proyecto
-
-&#x20;
-
-Esta propuesta de \*\*Organización y Gestión de Laboratorios\*\* aplica a:
-
-&#x20;
+Esta propuesta de **Organización y Gestión de Laboratorios** aplica específicamente a:
 
 | Aspecto | Alcance |
-
 |--------|---------|
+| **Laboratorios cubiertos** | Laboratorios de Sistemas e Ingeniería de Software de la Escuela Profesional de Ingeniería de Sistemas (EPIS-UNSA), Arequipa |
+| **Población estudiantil** | Aproximadamente 450-500 estudiantes (3er a 10mo semestre) |
+| **Personal académico** | 15-20 docentes (incluyendo Chapter Leads y coordinadores) |
+| **Personal técnico** | 3-5 administradores/técnicos de laboratorio |
+| **Máquinas y recursos** | 60-80 computadoras de escritorio, 5-10 servidores, impresoras compartidas |
+| **Facultades involucradas** | Ingeniería de Sistemas (EPIS) |
+| **Horizonte temporal** | Fase 1 (Universitaria): Semestres 2026-II y 2026-I (6-8 meses) |
 
-| \*\*Laboratorios cubiertos\*\* | Laboratorios de Sistemas e Ingeniería de Software de la Escuela Profesional de Ingeniería de Sistemas (EPIS-UNSA), Arequipa |
+### Propósito de la Plataforma
 
-| \*\*Población estudiantil\*\* | Aproximadamente 450-500 estudiantes (3er a 10mo semestre) |
+La plataforma propuesta busca **centralizar, estandarizar y hacer trazable** la gestión de laboratorios de computación en el contexto universitario. Esto permitirá:
 
-| \*\*Personal académico\*\* | 15-20 docentes (incluyendo Chapter Leads y coordinadores) |
+- **Eliminar pérdidas de tiempo:** Los estudiantes no perderán 20-30 minutos por sesión en instalaciones manuales repetitivas.
+- **Garantizar consistencia:** Los entornos de desarrollo serán idénticos entre el laboratorio y las computadoras personales de los estudiantes.
+- **Registrar auditoría:** Existirá un registro completo de qué software, versiones y licencias se utilizaron en cada práctica o proyecto.
+- **Facilitar transición empresarial:** La transición a un contexto empresarial (Fase 2) será orgánica, utilizando la misma plataforma con estándares más altos.
 
-| \*\*Personal técnico\*\* | 3-5 administradores/técnicos de laboratorio |
+---
 
-| \*\*Máquinas/Recursos\*\* | \~60-80 computadoras de escritorio, 5-10 servidores, impresoras compartidas |
+## 1.2 Problemática Común
 
-| \*\*Facultades involucradas\*\* | Ingeniería de Sistemas (EPIS) |
+### Problemas Actuales en los Laboratorios de la EPIS
 
-| \*\*Fases iniciales\*\* | Fase 1 (Universitaria): Semestres 2026-II y 2026-I (6-8 meses) |
+Los laboratorios de la EPIS enfrentan actualmente las siguientes dificultades operativas:
 
-&#x20;
+| # | Problema | Impacto Directo | Frecuencia |
+|---|----------|-----------------|-----------|
+| 1 | Pérdida de tiempo en instalaciones y configuraciones manuales | Estudiantes pierden 20-30 minutos por sesión en setup; reducción directa de tiempo práctico | Cada sesión de laboratorio |
+| 2 | Entornos no estandarizados entre máquinas | Código funciona en una máquina pero no en otra ("funciona en mi máquina") | Constantemente durante proyectos |
+| 3 | Falta de trazabilidad del software utilizado | No se registra qué versiones se usaron; dificulta auditoría académica y soporte técnico | Permanente |
+| 4 | Dificultad para replicar entornos fuera del laboratorio | Estudiantes no pueden practicar en casa con el mismo ambiente; pierden continuidad de aprendizaje | Permanente |
+| 5 | Gestión fragmentada de recursos | Hardware, software y usuarios gestionados por diferentes personas/sistemas sin coordinación | Permanente |
+| 6 | Escalabilidad limitada | Difícil pasar de un modelo académico a uno empresarial sin cambios de infraestructura | En transición a Fase 2 |
 
-\### Propósito
+### Evidencia de la Urgencia
 
-&#x20;
+**Datos cualitativos (Encuesta informal a estudiantes, Julio 2026):**
 
-La plataforma propuesta busca \*\*centralizar, estandarizar y hacer trazable\*\* la gestión de laboratorios de computación en el contexto universitario, para que:
+- **78%** de estudiantes reporta perder 20-30 minutos por sesión en instalaciones y configuraciones
+- **65%** ha experimentado conflictos de versiones ("funciona en mi máquina pero no en el laboratorio")
+- **82%** desearía poder trabajar en casa con el exacto mismo entorno del laboratorio
 
-&#x20;
+**Impacto académico cuantificado:**
 
-\- Los estudiantes \*\*no pierdan tiempo\*\* en instalaciones manuales repetitivas.
+- Reducción promedio de **30-40%** en tiempo efectivo dedicado a prácticas
+- Aumento de incidencias reportadas a soporte técnico: **15-20 por semana**
+- Calidad de proyectos limitada por problemas de entorno, no por conocimiento o competencia técnica
 
-\- Los entornos de desarrollo sean \*\*idénticos\*\* entre el laboratorio y las computadoras personales.
+### Análisis de Causa Raíz
 
-\- Existe \*\*registro auditable\*\* de qué software, versiones y licencias se usaron en cada práctica/proyecto.
+La raíz de estos problemas es la **falta de una estructura organizacional clara** que defina:
 
-\- La transición a un contexto empresarial (Fase 2) sea orgánica, usando la misma plataforma con estándares más altos.
+- **Quién** solicita, aprueba y distribuye las imágenes de entorno
+- **Cómo** se documentan y validan las configuraciones
+- **Qué** políticas rigen el software y las licencias
+- **Cuándo** y **por qué** se actualizan los entornos
 
-\---
+Sin estos elementos organizacionales, aunque se construya una plataforma técnica, esta no funcionará de forma sostenible o escalable.
 
-&#x20;
+---
 
-\## 1.2 Problemática Común
+## 1.3 Objetivos
 
-&#x20;
+### Objetivos Generales del Proyecto
 
-\### Problemas Identificados
+**OG1 (Dimensión Técnica):** Desarrollar una plataforma híbrida (on-premise + nube) que automatice y estandarice la gestión de laboratorios de computación.
 
-&#x20;
+**OG2 (Dimensión Organizacional):** Establecer una estructura clara de roles, responsabilidades y procesos que permita usar la plataforma de forma efectiva, trazable y sostenible.
 
-Los laboratorios de la EPIS actualmente enfrentan las siguientes dificultades:
+### Objetivos Específicos Técnicos
 
-&#x20;
+- **OET1:** Implementar un catálogo centralizado de imágenes Docker versionadas y escaneadas (Harbor + Trivy).
+- **OET2:** Permitir que estudiantes descarguen y ejecuten localmente las imágenes del laboratorio.
+- **OET3:** Garantizar trazabilidad completa del software utilizado (quién lo usó, cuándo, en qué proyecto).
 
-| # | Problema | Impacto | Frecuencia |
+### Objetivos Específicos Organizacionales (Nuevos)
 
-|---|----------|--------|-----------|
+Estos objetivos responden directamente a los problemas identificados y complementan la visión técnica:
 
-| 1 | Pérdida de tiempo en instalaciones y configuraciones manuales | Estudiantes pierden 20-30 min por sesión en setup; reducción de tiempo práctico | Cada sesión de lab |
+- **OEO1:** Definir roles y responsabilidades claros para la gestión del laboratorio (Administrador, Jefe de Laboratorio, Responsable de Imágenes, Docentes, Estudiantes).
+  
+- **OEO2:** Establecer procesos documentados y trazables para solicitud, aprobación y distribución de imágenes.
+  
+- **OEO3:** Crear una matriz RACI (Responsable/Accountable/Consulted/Informed) para todos los procesos críticos: solicitud de imágenes, reserva de equipos, aprobación de software.
+  
+- **OEO4:** Definir políticas claras y documentadas de seguridad, gestión de licencias y auditoría, tanto para laboratorio como para empresa.
+  
+- **OEO5:** Establecer indicadores de cierre explícitos y métricas de éxito para cada etapa del proyecto.
 
-| 2 | Entornos no estandarizados entre máquinas | Código funciona en una máquina pero no en otra ("funciona en mi máquina") | Constantemente |
+### Relación entre Objetivos Técnicos y Organizacionales
 
-| 3 | Falta de trazabilidad del software utilizado | No se sabe qué versiones se usaron en un proyecto; dificulta auditoría académica | Permanente |
+No son independientes. El siguiente cuadro muestra cómo se complementan:
 
-| 4 | Dificultad para replicar entornos fuera del laboratorio | Estudiantes no pueden practicar en casa con el mismo ambiente; pierden continuidad | Permanente |
+| Aspecto Técnico | Aspecto Organizacional | Resultado Integrado |
+|-----------------|----------------------|-------------------|
+| Imágenes Docker versionadas | Roles que solicitan/aprueban imágenes | Proceso completo de solicitud-aprobación-distribución |
+| Catálogo centralizado (Harbor) | Procesos documentados de validación | Repositorio confiable y auditable |
+| Trazabilidad de software | Políticas de licencias y seguridad | Cumplimiento normativo y legal |
+| CI/CD automatizado | Responsables de cada paso | Gobernanza clara y trazable |
 
-| 5 | Gestión fragmentada de recursos | Hardware, software y usuarios gestionados por diferentes personas/sistemas | Permanente |
+---
 
-| 6 | Escalabilidad limitada | Difícil pasar de un modelo académico a uno empresarial (cambios de infraestructura) | En transición a Fase 2 |
+## 1.4 Conexión con la Épica 1: Gestión Organizacional y Procesos
 
-&#x20;
+### Por Qué la Épica 1 es Fundacional
 
-\### Evidencia de la Urgencia
+La **Épica 1** ("Gestión Organizacional y Procesos del Laboratorio") es el cimiento sobre el cual descansan todas las demás épicas del proyecto. Su propósito es **documentar e implementar la organización mínima** requerida para que la plataforma funcione correctamente.
 
-&#x20;
+Todas las siguientes épicas dependen de que Épica 1 esté resuelta:
 
-\*\*Datos cualitativos recolectados (Encuesta informal a estudiantes, 2026):\*\*
+- **Épica 2 (Usuarios/Permisos):** necesita definición clara de roles de Épica 1
+- **Épica 3 (Catálogo de Imágenes):** necesita procesos de solicitud/aprobación de Épica 1
+- **Épica 4+ (Procesos, Auditoría):** necesitan políticas de Épica 1
 
-\- 78% de estudiantes reporta perder 20-30 minutos por sesión en instalaciones/configuraciones.
+### Indicadores de Cierre Propuestos para Épica 1
 
-\- 65% ha experimentado conflictos de versiones ("funciona en mi máquina pero no en el lab").
+Sin criterios de cierre claros, esta épica corre el riesgo de quedar abierta indefinidamente mientras las demás avanzan. Por eso se proponen los siguientes indicadores concretos:
 
-\- 82% desearía poder trabajar en casa con el mismo entorno del laboratorio.
-
-\*\*Impacto académico:\*\*
-
-\- Reducción promedio de 30-40% en tiempo efectivo de prácticas.
-
-\- Aumento de incidencias reportadas a soporte técnico: \~15-20 por semana.
-
-\- Calidad de proyectos limitada por problemas de entorno, no por conocimiento.
-
-\---
-
-&#x20;
-
-\## 1.3 Objetivos
-
-&#x20;
-
-\### Objetivos Generales
-
-&#x20;
-
-\*\*OG1 (Técnico):\*\* Desarrollar una plataforma híbrida que estandarice y automatice la gestión de laboratorios.
-
-&#x20;
-
-\*\*OG2 (Organizacional):\*\* Establecer una estructura de roles, responsabilidades y procesos claros para que la plataforma se use de forma efectiva, trazable y sostenible.
-
-&#x20;
-
-\### Objetivos Específicos Técnicos
-
-&#x20;
-
-\- \*\*OET1:\*\* Implementar un catálogo centralizado de imágenes Docker versionadas y escaneadas (Harbor + Trivy).
-
-\- \*\*OET2:\*\* Permitir que estudiantes descarguen y ejecuten localmente las imágenes del laboratorio.
-
-\- \*\*OET3:\*\* Garantizar trazabilidad completa del software utilizado (quién lo usó, cuándo, en qué proyecto).
-
-\### Objetivos Específicos Organizacionales ⭐ (Nuevos)
-
-&#x20;
-
-\- \*\*OEO1:\*\* Definir roles y responsabilidades claros para la gestión del laboratorio (Administrador, Jefe de Lab, Responsable de Imágenes, Docentes, Estudiantes).
-
-\- \*\*OEO2:\*\* Establecer procesos documentados y trazables para solicitud, aprobación y distribución de imágenes.
-
-\- \*\*OEO3:\*\* Crear una matriz RACI para todos los procesos críticos (solicitud de imágenes, reserva de equipos, aprobación de software).
-
-\- \*\*OEO4:\*\* Definir políticas claras de seguridad, licencias y auditoría para laboratorio y empresa.
-
-\- \*\*OEO5:\*\* Establecer indicadores de cierre y métricas de éxito para cada étapa del proyecto.
-
-\### Comparativa: Objetivos Técnicos vs Organizacionales
-
-&#x20;
-
-```
-
-Técnicos (Qué se construye)          Organizacionales (Cómo se gestiona)
-
-─────────────────────────────        ──────────────────────────────────
-
-Imágenes Docker                  →   Roles que las solicitan/aprueban
-
-Catálogo centralizado            →   Procesos de validación
-
-Trazabilidad de software         →   Políticas de licencias
-
-CI/CD automatizado               →   Responsables de cada paso
-
-```
-
-&#x20;
-
-\---
-
-&#x20;
-
-\## 1.4 Diagrama: De Problema a Objetivo
-
-&#x20;
-
-```mermaid
-
-graph TD
-
-&#x20;   A\["🔴 PROBLEMA<br/>Entornos no estandarizados<br/>20-30 min perdidos por sesión"] -->|Identifica| B\["📊 CAUSA RAÍZ<br/>Falta gestión centralizada<br/>y procesos claros"]
-
-&#x20;   
-
-&#x20;   B -->|Requiere| C\["🎯 OBJETIVO TÉCNICO<br/>Catálogo de imágenes<br/>+ Trazabilidad"]
-
-&#x20;   
-
-&#x20;   B -->|Requiere| D\["🎯 OBJETIVO ORGANIZACIONAL<br/>Roles, procesos, matriz RACI<br/>+ Políticas de aprobación"]
-
-&#x20;   
-
-&#x20;   C -->|Implementa| E\["✅ SOLUCIÓN<br/>Plataforma Híbrida<br/>Fase 1 Universitaria"]
-
-&#x20;   
-
-&#x20;   D -->|Implementa| E
-
-&#x20;   
-
-&#x20;   E -->|Resultado| F\["🎉 BENEFICIO<br/>Entornos reproducibles<br/>+ Tiempo disponible para práctica<br/>+ Trazabilidad completa"]
-
-```
-
-&#x20;
-
-\---
-
-&#x20;
-
-\## 1.5 Conexión con la Épica 1: Gestión Organizacional y Procesos
-
-&#x20;
-
-\### Épica Fundacional
-
-&#x20;
-
-La \*\*Épica 1\*\* ("Gestión Organizacional y Procesos del Laboratorio") es el cimiento sobre el cual descansan todas las demás épicas del proyecto. Su propósito es \*\*documentar e implementar la organización mínima\*\* requerida para que la plataforma funcione.
-
-&#x20;
-
-\### Indicadores de Cierre para la Épica 1
-
-&#x20;
-
-| Entregable | Criterio de Cierre | Responsable | Plazo (Fase 1) |
-
+| Entregable | Criterio de Cierre | Responsable | Plazo Estimado |
 |---|---|---|---|
+| **Documento de Roles** | Definición clara de 5-7 roles con responsabilidades específicas y matriz RACI | Equipo de Organización | Semana 2 |
+| **Procesos Documentados** | Mínimo 4 procesos críticos documentados con flujo claro: solicitud, aprobación, distribución, auditoría | Equipo de Procesos | Semana 3-4 |
+| **Matriz RACI Completa** | Responsable/Accountable/Consulted/Informed definidos para cada proceso crítico | Jefe de Lab + Equipo | Semana 4 |
+| **Políticas de Licencias y Seguridad** | Documento aprobado por autoridades de EPIS definiendo reglas de software, licencias y acceso | Equipo de Software + Legales | Semana 5 |
+| **Validación con Stakeholders** | Revisión y aprobación formal por docentes, estudiantes y administración | Chapter Leads | Semana 6 |
 
-| \*\*Documento de Roles\*\* | Definición clara de 5-7 roles con responsabilidades RACI | Equipo Organización | Semana 2 |
+**Importancia de estos indicadores:**
 
-| \*\*Procesos Documentados\*\* | Mínimo 4 procesos críticos (solicitud, aprobación, distribución, auditoría) con flujo claro | Equipo Procesos | Semana 3-4 |
+Sin ellos, la épica fundacional corre el riesgo de:
+- Quedar abierta indefinidamente mientras las épicas dependientes avanzan sin una base sólida
+- Generar inconsistencias entre lo que diseña el equipo técnico y lo que necesita el equipo organizacional
+- Frenar las épicas 2, 3 y siguientes que no tendrán claridad sobre roles y procesos
 
-| \*\*Matriz RACI\*\* | Responsable/Accountable/Consulted/Informed definidos para cada proceso | Jefe de Lab + Equipo | Semana 4 |
+---
 
-| \*\*Políticas de Seguridad y Licencias\*\* | Documento de políticas aprobado por autoridades | Software + Legales | Semana 5 |
+## 1.5 Relación con Otras Secciones del Documento
 
-| \*\*Validación con stakeholders\*\* | Revisión y aprobación por docentes, estudiantes y administración | Chapter Leads | Semana 6 |
+Este archivo ("Introducción, problemática y objetivos") **establece el "por qué"** del proyecto organizacional. Las siguientes 7 secciones del documento implementan concretamente estos objetivos:
 
-&#x20;
+| Sección | Propósito | Cómo Implementa Esta Sección 1 |
+|---------|-----------|------------------------------|
+| **2. Estructura Organizacional** | Define la estructura de equipos (Squads, Chapters, Guilds) | Implementa objetivos OEO1 (roles claros) |
+| **3. Roles de Autoridades y Encargados** | Define quién toma decisiones y aprueba | Define RACI de aprobación (OEO3) |
+| **4. Roles de Docentes, Estudiantes y Personal Técnico** | Define responsabilidades por nivel | Define participantes en procesos (OEO2) |
+| **5. Proceso de Solicitud de Imágenes** | Detalla el flujo completo de solicitud | Implementa política de aprobación (OEO4) |
+| **6. Proceso de Reserva de Laboratorios** | Detalla gestión de equipos y acceso | Implementa políticas de acceso (OEO4) |
+| **7. Gobernanza de Imágenes Docker** | Detalla versionado, escaneo y control | Implementa trazabilidad (OET3 + OEO3) |
+| **8. Software, Licencias y Trazabilidad** | Detalla control de licencias y auditoría | Implementa política de software (OEO4 + OET3) |
 
-\### Por qué estos indicadores importan
+Cada sección posterior es una "pieza del rompecabezas" que hace operativo lo definido aquí en términos de objetivos.
 
-&#x20;
+---
 
-Sin criterios de cierre claros, esta épica fundacional corre el riesgo de:
+## 1.6 Conclusión
 
-\- Quedar abierta indefinidamente mientras las demás épicas avanzan sin base sólida.
+Los problemas identificados en esta sección responden a una necesidad real y documentada en los laboratorios de la EPIS. La solución propuesta no es solo una plataforma técnica, sino una **gobernanza clara, roles definidos y procesos trazables** que hagan sostenible y escalable la solución.
 
-\- Generar inconsistencias entre lo que diseña el equipo técnico y lo que necesita el organizacional.
+**Punto clave:** Los objetivos organizacionales (secciones 2-8 de este documento) son tan críticos como los objetivos técnicos del proyecto general. Sin una estructura clara de cómo usar la plataforma, ninguna solución técnica funciona correctamente.
 
-\- Frenar las épicas dependientes (Épica 2: Usuarios/Permisos, Épica 3: Imágenes).
+El siguiente paso es que cada sección (2 a 8) desarrolle en detalle cómo implementa los objetivos planteados aquí.
 
-\*\*Por eso es crítico cerrar bien la Épica 1 antes de avanzar agresivamente.\*\*
+---
 
-&#x20;
+## Referencias y Fuentes
 
-\---
+- Encuesta informal a estudiantes de EPIS (Julio 2026)
+- Registros de incidencias de soporte técnico (2025-2026)
+- Documento general: "Plataforma Híbrida de Gestión de Laboratorios" (README.md)
+- Backlog inicial: épicas y priorizaciones (backlog/inicial.md)
+- Modelo Spotify adaptado: docs/organizacion-agil.md
 
-&#x20;
+---
 
-\## 1.6 Relación con Otras Secciones del Documento
-
-&#x20;
-
-Este archivo ("Introducción, problemática y objetivos") \*\*establece el "por qué"\*\* del proyecto organizacional. Las secciones siguientes lo complementan así:
-
-&#x20;
-
-| Sección | Propósito | Relación con la Sección 1 |
-
-|---------|-----------|-------------------------|
-
-| 2 - Estructura Organizacional | Define la estructura (Squads, Chapters, Guilds) | Implementa los objetivos OEO1 |
-
-| 3 - Roles de Autoridades | Define quién toma decisiones | Define RACI de aprobación (OEO3) |
-
-| 4 - Roles de Docentes/Estudiantes | Define responsabilidades por nivel | Define participantes en procesos (OEO2) |
-
-| 5 - Proceso Solicitud de Imágenes | Detalla el flujo de solicitud | Implementa política de aprobación (OEO4) |
-
-| 6 - Proceso Reserva de Labs | Detalla gestión de equipos | Implementa políticas de acceso (OEO4) |
-
-| 7 - Gobernanza de Imágenes | Detalla versionado y control | Implementa trazabilidad (OET3 + OEO3) |
-
-| 8 - Software, Licencias y Trazabilidad | Detalla control de licencias | Implementa política de software (OEO4 + OET3) |
-
-&#x20;
-
-\---
-
-&#x20;
-
-\## 1.7 Conclusión
-
-&#x20;
-
-La introducción, problemática y objetivos propuestos en esta sección responden a una necesidad real y documentada en los laboratorios de la EPIS. 
-
-&#x20;
-
-\*\*El objetivo no es solo construir una plataforma técnica\*\*, sino establecer una \*\*gobernanza clara, roles definidos y procesos trazables\*\* que hagan sostenible y escalable la solución, tanto en el contexto universitario como en su evolución hacia el empresarial.
-
-&#x20;
-
-Los objetivos organizacionales (secciones 2-8) son tan críticos como los técnicos, porque sin una estructura clara \*\*ninguna plataforma funciona correctamente\*\*.
-
-&#x20;
-
-\---
-
-&#x20;
-
-\## Bibliografía y Referencias
-
-&#x20;
-
-\- Encuesta informal a estudiantes de EPIS (Julio 2026)
-
-\- Registros de incidencias de soporte técnico (2025-2026)
-
-\- Documento general: "Plataforma Híbrida de Gestión de Laboratorios" (README.md)
-
-\- Backlog inicial: épicas y priorizaciones (backlog/inicial.md)
-
-\- Modelo Spotify adaptado: docs/organizacion-agil.md
-
-\---
-
-&#x20;
-
-\*\*Versión:\*\* 1.0  
-
-\*\*Última actualización:\*\* Julio 2026  
-
-\*\*Estado:\*\* Aprobado para Tarea 2
-
-&#x20;
-
+**Versión:** 1.0  
+**Última actualización:** Julio 2026  
+**Estado:** Aprobado para implementación

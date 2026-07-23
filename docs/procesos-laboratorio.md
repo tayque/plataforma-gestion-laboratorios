@@ -67,6 +67,20 @@ Start → Solicitud por Portal → Verificación Automática de Disponibilidad
 3. Se registra el préstamo con fecha/hora de devolución.
 4. Al llegar al laboratorio se realiza Check-in.
 
+```diff
+- Comentario por Huaynacho Mango, Jerry Anderson:
+- A favor: El flujo cubre el ciclo completo del préstamo (solicitud, verificación
+- en tiempo real, check-in con QR, check-out y liberación), lo que da trazabilidad
+- de quién usó cada equipo y cuándo.
+- Observación y mejora: No se definen los criterios de la "Cola de Prioridad"
+- cuando no hay disponibilidad (¿tiene prioridad un curso con evaluación, un
+- proyecto de investigación, el orden de llegada?). Tampoco se especifica en qué
+- casos la aprobación es automática y en cuáles pasa a revisión manual. Además,
+- falta el escenario de no-show: si el usuario reserva y nunca hace check-in, el
+- flujo no indica en cuánto tiempo se libera el recurso ni si hay penalidad, y lo
+- mismo ocurre si no realiza el check-out o excede la hora de devolución.
+```
+
 ---
 
 ### 3.2 Proceso: Gestión del Catálogo de Imágenes de Contenedores (Core)
@@ -122,7 +136,22 @@ Start → Login → Seleccionar Horario y Equipo
 → Reserva Confirmada → Recordatorio 15 min antes
 → Check-in en Laboratorio → Uso → Check-out → Liberación Automática
 
-
+```diff
+- Comentario por Huaynacho Mango, Jerry Anderson:
+- A favor: El proceso es simple y está bien automatizado: recordatorio previo,
+- check-in/check-out y liberación automática reducen la intervención manual del
+- administrador.
+- Observación y mejora: Este proceso se superpone con el 3.1, ya que ambos
+- terminan reservando/asignando equipos; convendría unificarlos o aclarar que 3.1
+- es préstamo de hardware puntual y 3.4 es reserva programada de horario. Faltan
+- también tres escenarios habituales: (1) cancelación o modificación de una
+- reserva, (2) ventana de tolerancia para el check-in y liberación por no-show,
+- y (3) la reserva grupal, cuando un docente reserva el laboratorio completo para
+- una clase (la matriz RACI le asigna rol C, pero el flujo no lo incluye).
+- Sugiero además agregar un KPI de no-show y de ocupación real del laboratorio,
+- ya que el único indicador actual (tiempo de reserva ≤ 5 min) no mide si las
+- reservas se cumplen.
+```
 
 ---
 

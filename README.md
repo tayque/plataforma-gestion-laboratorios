@@ -190,6 +190,11 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 
 Esto garantiza **estandarización y trazabilidad completa**.
 
+**Comentario — Tania Luz Ayque Puraca:**
+- **Fase 0:** Inventario inicial de software, definición de SBOM obligatorio, criterios de escaneo Trivy, firma digital de imágenes.
+- **Falta:** Rol explícito de "Responsable de Licencias" en estructura organizacional.
+- **Falta:** Proceso de transición de licencias académicas a comerciales (Fase 1 → Fase 2).
+
 ---
 
 ## Fases de Implementación

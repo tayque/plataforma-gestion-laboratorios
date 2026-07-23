@@ -27,11 +27,12 @@ Se incluyen descripciones detalladas, diagramas BPMN textuales, matriz RACI, ind
 - **Estudiante / Desarrollador**: Usuario final.
 - **Chapter Leads Técnicos**: Profesores por especialidad (DevOps, Seguridad, etc.).
 
-  <span style="color:red">
+```diff
 **Comentario por Ticona Saure Jose Maria:** 
 * **A favor:** La separación de roles entre docentes y personal técnico está bien definida conceptualmente.
 * **Observación y mejora:** Falta especificar el nivel de permisos que tendrá cada rol dentro de la plataforma (por ejemplo: permisos de lectura, ejecución, despliegue o administración de contenedores). Además, no se aclara qué sucede cuando un estudiante requiere paquetes adicionales no incluidos en la imagen base enviada por el docente.
 </span>
+```
 
 ### Propuesta de Organización
 

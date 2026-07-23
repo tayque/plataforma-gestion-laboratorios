@@ -52,6 +52,15 @@
 
 - [ ] Implementación de Harbor como Registry privado.
 - [ ] Pipeline automatizado de escaneo y firma de imágenes.
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL:
+- La implementación de un proceso automatizado para escanear y firmar
+- imágenes es una medida favorable, porque permite verificar su seguridad
+- y autenticidad. Sin embargo, para garantizar una trazabilidad completa,
+- también deberían registrarse el software incluido, sus versiones y
+- licencias, el responsable de la construcción, el commit de origen,
+- la fecha de aprobación y el curso o proyecto donde será utilizada.
+```
 - [ ] Interfaz para solicitar y aprobar imágenes.
 - [ ] Descarga segura de imágenes para uso local (estudiantes).
 
@@ -88,7 +97,15 @@
 - Épica 2 (Usuarios y Permisos)
 - Épica 3 (Imágenes - MVP)
 - Épica 4 (Gestión básica de Hardware)
-
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL :
+- La priorización considera la organización, los permisos, las imágenes
+- y el hardware; no obstante, no incluye de manera explícita la gestión
+- del software y sus licencias. Este aspecto debería formar parte de los
+- elementos indispensables de la primera fase, ya que desde el inicio se
+- utilizarán programas, librerías y dependencias cuyas condiciones de uso,
+- versiones y responsables deben estar debidamente registrados.
+```
 **Should Have:**
 - Dashboards y reportes
 - Descarga de imágenes para uso local

@@ -165,7 +165,7 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 
 ## 10. Respuestas de los integrantes a las preguntas de discusión
 
-### Respuestas — JerryCode777
+### Respuestas — Huaynacho Mango, Jerry Anderson
 
 **1. ¿Qué otros procesos del laboratorio caen en el dominio "complicado" frente a los que caen en el dominio "complejo"?**
 

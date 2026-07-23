@@ -14,3 +14,10 @@
 
 ## Flujo Recomendado
 Estudiantes → Descargan imagen → Ejecutan localmente con Docker/Podman → Entorno idéntico al laboratorio.
+
+## Comentario — Tania Luz Ayque Puraca
+
+- **Falta:** Especificar cómo se manejarán las licencias del software dentro de imágenes (propietario vs. libre).
+- **Falta:** Política de versionado de imágenes (tags semánticos, branches, ciclo de vida).
+- **Falta:** Flujo de actualización/parches de imágenes ya publicadas.
+- **Propuesta:** Añadir proceso: solicitud → revisión de licencia → SBOM → escaneo Trivy → firma → publicación Harbor.

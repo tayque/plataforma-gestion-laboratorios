@@ -31,6 +31,17 @@ Este proyecto propone el desarrollo de una **Plataforma Híbrida** para la gesti
 
 La solución combina gestión de hardware (computadoras, servidores, impresoras), usuarios, proyectos/cursos, repositorios de código (GitLab) y un catálogo centralizado de imágenes de contenedores (Docker), garantizando **estandarización, trazabilidad y reproducibilidad** de entornos.
 
+```diff
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- La introducción no delimita el alcance real del proyecto: no se indica
+- cuántos laboratorios existen actualmente, a qué facultad o carreras
+- pertenecen, ni cuántos estudiantes y docentes se verían involucrados.
+- Sin esta delimitación, es difícil dimensionar correctamente los roles,
+- procesos y políticas que se van a proponer en el documento de
+- Organización y Gestión, ya que no se sabe si está pensado para un
+- laboratorio piloto o para todos los de la universidad.
+```
+
 ---
 
 ## Problemática Común
@@ -46,6 +57,16 @@ Los laboratorios universitarios y las empresas de software enfrentan problemas s
 
 **En el ámbito universitario** se busca especialmente que los alumnos **no pierdan tiempo** en instalaciones y que puedan llevarse las mismas imágenes oficiales a sus computadoras personales para practicar fuera del laboratorio.
 
+```diff
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- La problemática se presenta de forma cualitativa, sin ningún dato que
+- respalde su urgencia (por ejemplo, tiempo promedio perdido en
+- instalaciones, número de incidencias por semestre, o resultados de
+- una encuesta a estudiantes/docentes). Sin evidencia concreta, es
+- difícil justificar ante las autoridades por qué este proyecto debe
+- priorizarse frente a otras iniciativas de la facultad.
+```
+
 ---
 
 ## Objetivos
@@ -60,6 +81,18 @@ Desarrollar una plataforma híbrida (local + nube) que permita la gestión estan
 - Permitir a los estudiantes descargar y ejecutar localmente las imágenes del laboratorio.
 - Crear dos versiones: Académica y Empresarial (con estándares superiores).
 - Formar estudiantes bajo metodologías ágiles reales (Modelo Spotify).
+
+```diff
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- Los objetivos listados están orientados casi exclusivamente a la
+- plataforma técnica (imágenes, contenedores, versiones académica y
+- empresarial), pero el documento de Organización y Gestión requiere
+- objetivos propios sobre estructura organizacional, roles y políticas
+- (tal como indica el objetivo general de ese documento). Se propone
+- añadir objetivos específicos como: "Definir roles y responsabilidades
+- claras para la gestión del laboratorio" y "Establecer una matriz RACI
+- para los procesos críticos", que hoy no aparecen en ningún objetivo.
+```
 
 ---
 
@@ -217,4 +250,3 @@ Esta plataforma representa una oportunidad estratégica para modernizar los labo
 
 ---
 
-*Documento preparado para repositorio GitHub. Puedes copiar todo este contenido directamente en un archivo `README.md`.*

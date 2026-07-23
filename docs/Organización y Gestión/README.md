@@ -26,7 +26,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 | 3 | Choque Sánchez, Alejandra Camila | Roles de autoridades y encargados |
 | 4 | Ticona Saure Jose Maria | Roles de docentes, estudiantes y personal técnico |
 | 5 | Alarico Pacheco Camila Fernanda | Proceso de solicitud de imágenes |
-| 6 | Nombre completo del integrante 6 | Proceso de reserva de laboratorios |
+| 6 | Huaynacho Mango, Jerry Anderson | Proceso de reserva de laboratorios |
 | 7 | Ayque Puraca, Tania Luz | Gobernanza de imágenes Docker |
 | 8 | Cari Quispe, Juan Manuel | Software, licencias y trazabilidad |
 

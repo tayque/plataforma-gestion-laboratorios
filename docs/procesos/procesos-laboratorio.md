@@ -36,3 +36,13 @@ El objetivo es estandarizar el funcionamiento del laboratorio, reducir tiempos i
 Start → [Solicitud de Recursos] → ¿Recursos disponibles? 
    → Sí → [Asignación Temporal] → [Registro en Sistema] → End
    → No → [Notificación de Espera] → [Cola de Espera] → Revisar disponibilidad
+```
+
+```diff
+- COMENTARIO – ALEJANDRA CAMILA CHOQUE SÁNCHEZ:
+- El proceso contempla la notificación cuando no existen recursos
+- disponibles, pero no especifica si el usuario recibe una actualización
+- cuando el recurso finalmente queda disponible. Incorporar este paso
+- mejoraría la comunicación con los usuarios y evitaría consultas
+- innecesarias.
+```

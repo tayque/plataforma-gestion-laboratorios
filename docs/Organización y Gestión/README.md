@@ -23,7 +23,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 |---:|---|---|
 | 1 | Cornejo Hurtado, Dario Rafael | Introducción, problemática y objetivos |
 | 2 | Nombre completo del integrante 2 | Estructura organizacional |
-| 3 | Nombre completo del integrante 3 | Roles de autoridades y encargados |
+| 3 | Choque Sánchez, Alejandra Camila | Roles de autoridades y encargados |
 | 4 | Ticona Saure Jose Maria | Roles de docentes, estudiantes y personal técnico |
 | 5 | Alarico Pacheco Camila Fernanda | Proceso de solicitud de imágenes |
 | 6 | Nombre completo del integrante 6 | Proceso de reserva de laboratorios |

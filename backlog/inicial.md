@@ -34,7 +34,18 @@
 - [ ] Gestión de Proyectos (Empresa) y Cursos (Universidad).
 - [ ] Asignación de usuarios a proyectos/cursos.
 - [ ] RBAC avanzado (Roles Based Access Control).
-
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL:
+- El documento propone implementar un control de acceso basado en roles;
+- sin embargo, no define de manera específica quién será responsable de
+- gestionar el software y sus licencias. Esta ausencia podría ocasionar
+- instalaciones no autorizadas, licencias vencidas, uso indebido de
+- licencias educativas o falta de evidencia sobre las autorizaciones.
+- Se propone incorporar el rol de Responsable de Software y Licencias,
+- encargado de verificar las condiciones de uso, controlar vencimientos,
+- registrar las licencias disponibles, autorizar instalaciones y conservar
+- la documentación que permita garantizar su trazabilidad.
+```
 ---
 
 ### Épica 3: Catálogo de Imágenes de Contenedores

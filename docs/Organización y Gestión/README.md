@@ -25,7 +25,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 | 2 | Nombre completo del integrante 2 | Estructura organizacional |
 | 3 | Nombre completo del integrante 3 | Roles de autoridades y encargados |
 | 4 | Ticona Saure Jose Maria | Roles de docentes, estudiantes y personal técnico |
-| 5 | Nombre completo del integrante 5 | Proceso de solicitud de imágenes |
+| 5 | Alarico Pacheco Camila Fernanda | Proceso de solicitud de imágenes |
 | 6 | Nombre completo del integrante 6 | Proceso de reserva de laboratorios |
 | 7 | Nombre completo del integrante 7 | Gobernanza de imágenes Docker |
 | 8 | Cari Quispe, Juan Manuel | Software, licencias y trazabilidad |

@@ -135,7 +135,17 @@ Start → Detección Automática de Nueva Versión
    → No → Actualización Automática
 → Publicación → Notificación a Usuarios Activos → End
 
-
+```diff
+- Comentario por Alarico Pacheco Camila Fernanda:
+- A favor: - Automatiza la detección de nuevas versiones, lo cual reduce trabajo manual.
+- Incluye escaneo de seguridad antes de cualquier actualización y distingue entre actualización
+- automática y manual según el caso, dando flexibilidad al proceso.
+- Observacion y mejora: No se especifica qué dispara la "Detección Automática de Nueva Versión" (webhook, cron, escaneo periódico)
+- por lo que se tiene que especificar el mecanismo técnico que detecta esas nuevas versiones. Tambien el
+- criterio de "¿Requiere Aprobación Manual?" no está definido por lo que se necesita definir reglas claras
+- para decidir cuándo se requiere aprobación manual. Ademas no existe mecanismo de rollback si una actualización
+- automática falla por lo que se sugiere incluir un flujo de rollback ante fallos post-actualización.
+```
 
 ---
 

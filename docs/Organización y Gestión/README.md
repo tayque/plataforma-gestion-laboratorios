@@ -28,7 +28,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 | 5 | Nombre completo del integrante 5 | Proceso de solicitud de imágenes |
 | 6 | Nombre completo del integrante 6 | Proceso de reserva de laboratorios |
 | 7 | Nombre completo del integrante 7 | Gobernanza de imágenes Docker |
-| 8 | Nombre completo del integrante 8 | Software, licencias y trazabilidad |
+| 8 | Juan Manuel Cari Quispe | Software, licencias y trazabilidad |
 
 ## Contenido
 

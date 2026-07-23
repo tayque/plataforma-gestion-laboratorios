@@ -2,32 +2,33 @@
 
 ## Presentación
 
-El presente documento contiene una propuesta para mejorar la organización
+El presente trabajo desarrolla una propuesta para mejorar la organización
 y gestión de los laboratorios utilizados en cursos, proyectos académicos
 e investigación.
 
-La propuesta define la estructura organizacional, los roles y
-responsabilidades de las personas involucradas, los procesos para solicitar
-imágenes y reservar laboratorios, así como las políticas necesarias para
-gestionar imágenes Docker, software, licencias y trazabilidad.
+La propuesta comprende la definición de la estructura organizacional,
+los roles y responsabilidades de las personas involucradas, los procesos
+de solicitud de imágenes y reserva de laboratorios, así como la gobernanza
+de imágenes Docker, software, licencias y trazabilidad.
 
-## Integrantes
-
-1. Nombre completo del integrante 1
-2. Nombre completo del integrante 2
-3. Nombre completo del integrante 3
-4. Nombre completo del integrante 4
-5. Nombre completo del integrante 5
-6. Nombre completo del integrante 6
-7. Nombre completo del integrante 7
-8. Nombre completo del integrante 8
-
-## Objetivo del documento
+## Objetivo
 
 Proponer una estructura organizacional, roles, responsabilidades, procesos
 y políticas que permitan gestionar de manera ordenada, segura y trazable
-los laboratorios, sus horarios, recursos tecnológicos, imágenes Docker,
-software y licencias.
+los laboratorios, sus horarios y sus recursos tecnológicos.
+
+## Integrantes y distribución del trabajo
+
+| N.° | Integrante | Sección asignada |
+|---:|---|---|
+| 1 | Nombre completo del integrante 1 | Introducción, problemática y objetivos |
+| 2 | Nombre completo del integrante 2 | Estructura organizacional |
+| 3 | Nombre completo del integrante 3 | Roles de autoridades y encargados |
+| 4 | Nombre completo del integrante 4 | Roles de docentes, estudiantes y personal técnico |
+| 5 | Nombre completo del integrante 5 | Proceso de solicitud de imágenes |
+| 6 | Nombre completo del integrante 6 | Proceso de reserva de laboratorios |
+| 7 | Nombre completo del integrante 7 | Gobernanza de imágenes Docker |
+| 8 | Nombre completo del integrante 8 | Software, licencias y trazabilidad |
 
 ## Contenido
 
@@ -42,22 +43,34 @@ software y licencias.
 
 ## Forma de trabajo
 
-Cada integrante será responsable de desarrollar uno de los apartados de
-la propuesta. Los aportes serán realizados directamente en el repositorio
-mediante commits individuales.
+Cada integrante será responsable de desarrollar el archivo correspondiente
+a su sección y realizará sus aportes directamente desde su cuenta de GitHub.
 
-Posteriormente, el grupo revisará todos los apartados para unificar la
-redacción, eliminar contradicciones y asegurar que los roles, procesos y
-políticas sean coherentes entre sí.
+Los cambios serán registrados mediante commits individuales. Al finalizar,
+el grupo realizará una revisión general para unificar la redacción, corregir
+contradicciones y verificar que los roles, procesos y políticas sean
+coherentes entre sí.
 
 ## Resultado esperado
 
 La propuesta permitirá establecer:
 
-- Una organización clara para la administración de los laboratorios.
-- Responsabilidades definidas para autoridades, docentes, estudiantes y
-  personal técnico.
+- Una estructura clara para la gestión de los laboratorios.
+- Funciones y responsabilidades definidas.
 - Procedimientos para solicitar imágenes y reservar laboratorios.
-- Reglas para la creación, aprobación y actualización de imágenes Docker.
-- Controles para el uso de software y licencias.
-- Trazabilidad de solicitudes, aprobaciones, versiones y modificaciones.
+- Reglas para gestionar imágenes Docker.
+- Controles para software y licencias.
+- Trazabilidad de solicitudes, versiones, aprobaciones y cambios.
+
+## Estado del trabajo
+
+| Sección | Estado |
+|---|---|
+| Introducción, problemática y objetivos | Pendiente |
+| Estructura organizacional | Pendiente |
+| Roles de autoridades y encargados | Pendiente |
+| Roles de docentes, estudiantes y personal técnico | Pendiente |
+| Proceso de solicitud de imágenes | Pendiente |
+| Proceso de reserva de laboratorios | Pendiente |
+| Gobernanza de imágenes Docker | Pendiente |
+| Software, licencias y trazabilidad | Pendiente |

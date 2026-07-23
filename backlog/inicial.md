@@ -21,13 +21,16 @@
 - [ ] Como **Jefe de Laboratorio**, quiero dashboards que muestren el estado de uso de los recursos físicos y virtuales.
 - [ ] Como **Equipo**, quiero una matriz RACI clara para todos los procesos críticos.
 
+```diff
 - COMENTARIO – CORNEJO HURTADO, DARIO:
-- La épica menciona documentar roles y procesos, pero no define un indicador para saber cuándo esa documentación está "completa" ni un plazo dentro de la Fase 1. Sin un criterio de cierre claro, esta épica fundacional corre el riesgo de quedar abierta indefinidamente mientras avanzan las demás épicas que dependen de ella.
+- La épica menciona documentar roles y procesos, pero no define un
+- indicador para saber cuándo esa documentación está "completa" ni un
+- plazo dentro de la Fase 1. Sin un criterio de cierre claro, esta épica
+- fundacional corre el riesgo de quedar abierta indefinidamente mientras
+- avanzan las demás épicas que dependen de ella.
+```
 
 **Criterios de Aceptación:**
-- Documentación oficial de procesos (en Markdown y versión PDF).
-- Matriz RACI implementada.
-- Flujos automatizados donde sea posible.
 
 ---
 

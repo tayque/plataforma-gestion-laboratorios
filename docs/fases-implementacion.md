@@ -42,3 +42,12 @@
 - Los resultados del piloto deberán documentarse antes de ampliar la solución.
 ```
 8. **Fase 4:** Mejora Continua y Documentación
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL:
+- La mejora continua y la documentación son fundamentales para mantener
+- vigente la información del software, las licencias y las versiones
+- utilizadas. En esta fase se deberían realizar revisiones periódicas del
+- catálogo de software, controlar los vencimientos de licencias, retirar
+- versiones obsoletas y actualizar el historial de cambios. También se
+- recomienda definir indicadores que permitan evaluar si las solicitudes,
+- aprobaciones y modificaciones mantienen una trazabilidad completa.

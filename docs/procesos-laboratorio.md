@@ -109,6 +109,18 @@ Start → Solicitud de Imagen (Estudiante/Docente)
 - Los estudiantes pueden descargar la imagen oficial y ejecutarla en su computadora personal con Docker o Podman.
 - Se mantiene un historial completo de versiones.
 
+```diff
+- Comentario por Alarico Pacheco Camila Fernanda:
+- A favor: El flujo está bien pensado en cuanto a trazabilidad: incluye escaneo de vulnerabilidades, firma
+- digital y aprobación antes de publicar.
+- Observacion y mejora: El flujo depende totalmente de "Búsqueda Automática en Harbor", pero no contempla
+- qué pasa si el servicio está caído o inaccesible, por lo que se requiere definir un procedimiento alterno
+- (manual o caché local) ante caída de Harbor. Tambien no se especifica quién decide ni bajo qué parámetros se
+- determina si conviene usar una imagen oficial existente o crear una nueva por lo que se tiene que establecer
+- criterios para decidir entre ellos. Ademas falta el escenario de rechazo de la imagen por lo que se
+- sugiere agregar un paso de notificacion de rechazo.
+```
+
 ---
 
 ### 3.3 Proceso: Actualización y Mantenimiento de Imágenes

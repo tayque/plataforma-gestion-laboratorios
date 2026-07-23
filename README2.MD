@@ -22,6 +22,15 @@
 
 Este proyecto busca desarrollar una **plataforma híbrida** (local + nube) para la gestión integral de laboratorios de computación, aplicable en universidades y empresas de software.
 
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- La introducción no delimita el alcance real del proyecto: no se indica
+- cuántos laboratorios existen actualmente, a qué facultad o carreras
+- pertenecen, ni cuántos estudiantes y docentes se verían involucrados.
+- Sin esta delimitación, es difícil dimensionar correctamente los roles,
+- procesos y políticas que se van a proponer en el documento de
+- Organización y Gestión, ya que no se sabe si está pensado para un
+- laboratorio piloto o para todos los de la universidad.
+
 ---
 
 ## Problemática Común
@@ -31,6 +40,14 @@ Este proyecto busca desarrollar una **plataforma híbrida** (local + nube) para 
 - Falta de trazabilidad del software utilizado.
 - Dificultad para replicar el entorno del laboratorio en las computadoras personales de los alumnos.
 - Gestión ineficiente de hardware y recursos.
+
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- La problemática se presenta de forma cualitativa, sin ningún dato que
+- respalde su urgencia (por ejemplo, tiempo promedio perdido en
+- instalaciones, número de incidencias por semestre, o resultados de
+- una encuesta a estudiantes/docentes). Sin evidencia concreta, es
+- difícil justificar ante las autoridades por qué este proyecto debe
+- priorizarse frente a otras iniciativas de la facultad.
 
 ---
 
@@ -45,6 +62,15 @@ Este proyecto busca desarrollar una **plataforma híbrida** (local + nube) para 
 - Posibilidad de que los alumnos descarguen y usen las mismas imágenes en sus PCs.
 - Dos versiones: Académica y Empresarial (con estándares más altos).
 
+- COMENTARIO – CORNEJO HURTADO, DARIO:
+- Los objetivos listados están orientados casi exclusivamente a la
+- plataforma técnica (imágenes, contenedores, versiones académica y
+- empresarial), pero el documento de Organización y Gestión requiere
+- objetivos propios sobre estructura organizacional, roles y políticas
+- (tal como indica el objetivo general de ese documento). Se propone
+- añadir objetivos específicos como: "Definir roles y responsabilidades
+- claras para la gestión del laboratorio" y "Establecer una matriz RACI
+- para los procesos críticos", que hoy no aparecen en ningún objetivo.
 ---
 
 ## Justificación y Beneficios

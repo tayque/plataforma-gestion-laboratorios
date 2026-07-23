@@ -21,7 +21,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 
 | N.° | Integrante | Sección asignada |
 |---:|---|---|
-| 1 | Nombre completo del integrante 1 | Introducción, problemática y objetivos |
+| 1 | Cornejo Hurtado, Dario Rafael | Introducción, problemática y objetivos |
 | 2 | Nombre completo del integrante 2 | Estructura organizacional |
 | 3 | Nombre completo del integrante 3 | Roles de autoridades y encargados |
 | 4 | Nombre completo del integrante 4 | Roles de docentes, estudiantes y personal técnico |

@@ -12,7 +12,16 @@
 - implementada.
 ```
 3. **Fase 1:** Proyecto Universitario (4-6 meses)
-4. **Fase 2:** Proyecto Empresa (5-7 meses)
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL:
+- En la Fase 1 se debería implementar un catálogo básico de software
+- autorizado para los cursos, registrando nombre, versión, tipo de licencia,
+- docente responsable y entorno donde será utilizado. También debería
+- conservarse el historial de solicitudes, aprobaciones e instalaciones,
+- para comprobar desde el proyecto universitario que la trazabilidad
+- funciona correctamente.
+```
+5. **Fase 2:** Proyecto Empresa (5-7 meses)
 ```diff
 - COMENTARIO – CARI QUISPE JUAN MANUEL:
 - La transición de un proyecto universitario a uno empresarial requiere
@@ -23,4 +32,13 @@
 - de licencias antes de utilizar los entornos en actividades empresariales.
 ```
 6. **Fase 3:** Piloto en laboratorios reales
-7. **Fase 4:** Mejora Continua y Documentación
+```diff
+- COMENTARIO – CARI QUISPE JUAN MANUEL:
+- La realización de un piloto en laboratorios reales es adecuada porque
+- permitirá comprobar si los procesos propuestos funcionan en condiciones
+- reales. Durante esta fase también deberían evaluarse el registro de
+- versiones, la identificación de licencias, la trazabilidad de los cambios
+- y la capacidad de conocer quién solicitó, aprobó e instaló cada software.
+- Los resultados del piloto deberán documentarse antes de ampliar la solución.
+```
+8. **Fase 4:** Mejora Continua y Documentación

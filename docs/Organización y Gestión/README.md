@@ -71,6 +71,6 @@ La propuesta permitirá establecer:
 | Roles de autoridades y encargados | Pendiente |
 | Roles de docentes, estudiantes y personal técnico | Pendiente |
 | Proceso de solicitud de imágenes | Pendiente |
-| Proceso de reserva de laboratorios | Pendiente |
+| Proceso de reserva de laboratorios | Completado |
 | Gobernanza de imágenes Docker | Pendiente |
 | Software, licencias y trazabilidad | Pendiente |

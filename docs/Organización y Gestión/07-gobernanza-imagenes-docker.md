@@ -24,6 +24,12 @@ Definir un proceso simple y claro para gobernar imágenes Docker usadas en los l
 - Escanear vulnerabilidades antes de aprobar una versión.
 - Registrar versión, responsable y fecha de publicación.
 
+## Diagrama del proceso
+
+El siguiente diagrama muestra el flujo completo de gobernanza, desde la solicitud inicial hasta la descarga por parte de los estudiantes, incluyendo los puntos de decisión y las rutas de rechazo.
+
+![Diagrama del proceso de gobernanza de imágenes Docker](img/flujo-gobernanza-docker.jpg)
+
 ## Roles
 
 | Rol | Responsabilidad principal | Nivel de autoridad | Herramientas que usa |

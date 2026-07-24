@@ -17,7 +17,12 @@ Estudiantes → Descargan imagen → Ejecutan localmente con Docker/Podman → E
 
 ## Comentario — Tania Luz Ayque Puraca
 
-- **Falta:** Especificar cómo se manejarán las licencias del software dentro de imágenes (propietario vs. libre).
-- **Falta:** Política de versionado de imágenes (tags semánticos, branches, ciclo de vida).
-- **Falta:** Flujo de actualización/parches de imágenes ya publicadas.
-- **Propuesta:** Añadir proceso: solicitud → revisión de licencia → SBOM → escaneo Trivy → firma → publicación Harbor.
+**A favor:**
+- La elección de **Harbor** es acertada: es el estándar para registros privados de imágenes, con control de acceso, escaneo integrado y firma digital. Evita depender de Docker Hub, que tiene límites de descarga y no garantiza disponibilidad offline.
+
+**Observaciones:**
+- **Falta:** Política de licencias del software dentro de las imágenes (propietario vs. libre). Sin ella, una imagen podría distribuirse con software comercial sin autorización, generando riesgo legal.
+- **Falta:** Política de versionado (SemVer). Sin tags claros, dos versiones distintas pueden tener el mismo tag `latest`, rompiendo la reproducibilidad que es el objetivo central del proyecto.
+- **Falta:** Flujo de actualización y parches de imágenes ya publicadas. Si se detecta una vulnerabilidad nueva, no hay proceso para notificar usuarios ni retirar la versión afectada.
+- **Falta:** Seguridad de red entre componentes. Se listan GitLab, Harbor, Keycloak, PostgreSQL y MinIO pero no se describe cómo se comunican de forma segura (TLS, redes internas, secretos).
+- **Propuesta:** Añadir flujo explícito: solicitud → revisión de licencia → construcción aislada → SBOM → escaneo Trivy → firma Cosign → publicación en Harbor.

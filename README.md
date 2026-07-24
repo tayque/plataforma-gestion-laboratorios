@@ -124,6 +124,12 @@ Se ejecutarán dos proyectos secuenciales:
 1. **Proyecto Universitario** (Fase 1)
 2. **Proyecto Empresa** (Fase 2)
 
+### Comentario Diego Schreiber
+
+El desarrollo de la plataforma seguirá un enfoque metodológico basado en principios ágiles y en una adaptación del Modelo Spotify al contexto universitario. Cada Squad será responsable de un conjunto de funcionalidades específicas y trabajará mediante iteraciones cortas que permitan obtener retroalimentación constante de los usuarios. Los Chapters garantizarán la aplicación de estándares técnicos compartidos, mientras que los Guilds facilitarán el intercambio de conocimientos entre los diferentes equipos.
+
+Este enfoque busca reducir el tiempo de respuesta ante cambios en los requerimientos, promover la colaboración entre estudiantes y docentes, mejorar la calidad del software mediante revisiones continuas y asegurar que el producto evolucione de forma incremental durante todas las fases del proyecto.
+
 ---
 
 ## Modelo Organizacional Ágil (Spotify Adaptado)

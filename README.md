@@ -206,9 +206,16 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 Esto garantiza **estandarización y trazabilidad completa**.
 
 **Comentario — Tania Luz Ayque Puraca:**
-- **Fase 0:** Inventario inicial de software, definición de SBOM obligatorio, criterios de escaneo Trivy, firma digital de imágenes.
-- **Falta:** Rol explícito de "Responsable de Licencias" en estructura organizacional.
-- **Falta:** Proceso de transición de licencias académicas a comerciales (Fase 1 → Fase 2).
+
+**A favor:**
+- El flujo incluye escaneo con Trivy y firma digital, controles que exige el estándar SLSA nivel 2. Buen punto de partida.
+
+**Observaciones:**
+- **Falta — Fase 0:** No hay inventario inicial de software con licencias declaradas y SBOM base. Sin esa línea base, la trazabilidad queda incompleta desde el inicio.
+- **Falta:** El escaneo Trivy no define qué nivel de severidad bloquea la publicación. Sin ese criterio, el escaneo es solo informativo. Propuesta: CRITICAL o HIGH bloquea; MEDIUM/LOW se documenta.
+- **Falta:** No hay un rol formal de "Responsable de Licencias". Si nadie está asignado explícitamente, esa revisión se omitirá en la práctica.
+- **Falta:** Proceso de transición de licencias académicas a comerciales (Fase 1 → Fase 2). Varias herramientas son gratuitas en educación pero requieren licencia comercial en producción.
+- **Falta:** Los "metadatos de trazabilidad" del paso 5 no están definidos. Mínimo deben incluir: autor, fecha, hash SHA256, imagen base y resultado del escaneo.
 
 ---
 

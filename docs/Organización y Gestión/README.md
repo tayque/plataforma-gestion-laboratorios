@@ -22,7 +22,7 @@ los laboratorios, sus horarios y sus recursos tecnológicos.
 | N.° | Integrante | Sección asignada |
 |---:|---|---|
 | 1 | Cornejo Hurtado, Dario Rafael | Introducción, problemática y objetivos |
-| 2 | Nombre completo del integrante 2 | Estructura organizacional |
+| 2 | Diego Hans Schreiber Landeo | Estructura organizacional |
 | 3 | Choque Sánchez, Alejandra Camila | Roles de autoridades y encargados |
 | 4 | Ticona Saure Jose Maria | Roles de docentes, estudiantes y personal técnico |
 | 5 | Alarico Pacheco Camila Fernanda | Proceso de solicitud de imágenes |

@@ -66,11 +66,11 @@ La propuesta permitirá establecer:
 
 | Sección | Estado |
 |---|---|
-| Introducción, problemática y objetivos | Pendiente |
-| Estructura organizacional | Pendiente |
-| Roles de autoridades y encargados | Pendiente |
-| Roles de docentes, estudiantes y personal técnico | Pendiente |
-| Proceso de solicitud de imágenes | Pendiente |
+| Introducción, problemática y objetivos | Completado |
+| Estructura organizacional | Completado |
+| Roles de autoridades y encargados | Completado |
+| Roles de docentes, estudiantes y personal técnico | Completado |
+| Proceso de solicitud de imágenes | Completado |
 | Proceso de reserva de laboratorios | Completado |
-| Gobernanza de imágenes Docker | Pendiente |
-| Software, licencias y trazabilidad | Pendiente |
+| Gobernanza de imágenes Docker | Completado |
+| Software, licencias y trazabilidad | Completado |

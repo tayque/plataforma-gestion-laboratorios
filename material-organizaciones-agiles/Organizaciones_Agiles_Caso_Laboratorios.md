@@ -188,3 +188,9 @@ Para la **autonomía** mediría: (a) porcentaje de decisiones técnicas que el s
 Para la **alineación** mediría: (d) porcentaje de entregas que cumplen los estándares definidos por los Chapters (revisiones de código, seguridad, documentación); (e) retrabajo por inconsistencias entre squads, por ejemplo dos squads resolviendo el mismo problema de forma incompatible (meta: tendencia a cero); y (f) el resultado de una encuesta corta trimestral donde cada miembro evalúa "entiendo cómo mi trabajo aporta al objetivo del Tribe".
 
 El equilibrio se logra cuando ambos grupos de indicadores son buenos a la vez: si (a)-(c) son buenos pero (d)-(f) malos, hay caos (autonomía sin alineación); si ocurre lo contrario, hay burocracia (alineación sin autonomía).
+
+### Comentario del equipo
+
+La adopción del Modelo Spotify resulta adecuada para este proyecto debido a que la plataforma integra diferentes componentes (gestión de usuarios, laboratorios, imágenes de contenedores, infraestructura y procesos académicos), los cuales pueden evolucionar de manera independiente sin perder la alineación con los objetivos generales.
+
+La organización mediante Squads, Chapters y Guilds favorece que equipos multidisciplinarios desarrollen funcionalidades específicas mientras mantienen estándares técnicos comunes. Esto reduce las dependencias entre equipos, facilita la incorporación de nuevos integrantes y permite adaptar la solución conforme cambien las necesidades de docentes, estudiantes y administradores del laboratorio, aspecto característico de un proyecto con alta incertidumbre y evolución continua.
